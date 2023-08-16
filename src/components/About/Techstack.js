@@ -31,7 +31,7 @@ import { TbBrandGolang } from "react-icons/tb";
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons" style={{backgroundColor:"#FFCD00" ,width:"10rem"}}>
+      <Col xs={4} md={2} className="tech-icons" style={{backgroundColor:"#FFCD00"}}>
         <DiHtml5/>
         
       </Col>

@@ -12,7 +12,7 @@ function AboutCard() {
             from <span className="purple"> Rupnagar, Punjab, India.</span>
             <br /> I have one year and seven months of experience in writing Frontend development code with best practices.
             <br />
-            I have pursued my Bachelor of TEchnology in Computer Science and Engineering in 2022.
+            I have pursued my Bachelor of Technology in Computer Science and Engineering in 2022.
             <br />
             <br />
             I am a collaborative team player with excellent problem-solving and analytical abilities.

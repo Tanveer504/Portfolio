@@ -2,6 +2,7 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
 import {
+  DiHtml5,
   DiJavascript1,
   DiReact,
   DiNodejs,
@@ -9,6 +10,11 @@ import {
   DiPython,
   DiGit,
   DiJava,
+  DiCss3,
+  DiBootstrap,
+  DiGithub,
+  DiBitbucket,
+  DiJira,
 } from "react-icons/di";
 import {
   SiRedis,
@@ -16,53 +22,45 @@ import {
   SiNextdotjs,
   SiSolidity,
   SiPostgresql,
+  SiRedux,
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+      <Col xs={4} md={2} className="tech-icons" style={{backgroundColor:"#FFCD00"}}>
+        <DiHtml5/>
+        <p>HTML</p>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+      <Col xs={4} md={2} className="tech-icons" style={{backgroundColor:"#FFCD00"}}>
+        <DiCss3 />
+        CSS
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
+      <Col xs={4} md={2} className="tech-icons" style={{backgroundColor:"#FFCD00"}}>
+      <DiJavascript1 />
+      Javascript
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      
+      <Col xs={4} md={2} className="tech-icons" style={{backgroundColor:"#FFCD00"}}>
         <DiReact />
+        React
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
+      <Col xs={4} md={2} className="tech-icons" style={{backgroundColor:"#FFCD00"}}>
+        <DiBootstrap/>
+        Bootstrap
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" style={{backgroundColor:"#FFCD00"}}>
         <DiGit />
+        <p>Git</p>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+      <Col xs={4} md={2} className="tech-icons" style={{backgroundColor:"#FFCD00"}}>
+        <SiRedux />
+        Redux
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+      <Col xs={4} md={2} className="tech-icons" style={{backgroundColor:"#FFCD00"}}>
+        <DiJira/>
+        <p>Jira</p>
       </Col>
     </Row>
   );

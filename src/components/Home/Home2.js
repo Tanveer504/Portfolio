@@ -40,17 +40,14 @@ web applications.
               <br />
               <br />
               Whenever possible, I also apply my passion for learning
-              <b className="purple"> Node.js</b> and
+              <b className="purple"> GraphQl</b> and
               <i>
                 <b className="purple">
                   {" "}
                   Modern Javascript Library and Frameworks
                 </b>
               </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js .</b>
-              </i>
+             
             </p>
           </Col>
           <Col md={4} className="myAvtar">

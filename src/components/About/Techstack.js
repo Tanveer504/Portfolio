@@ -25,6 +25,7 @@ import {
   SiPostgresql,
   SiRedux,
   SiTypescript,
+  SiGraphql,
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
 
@@ -68,6 +69,7 @@ function Techstack() {
         <SiRedux />
         
       </Col>
+      
       <Col xs={4} md={2} className="tech-icons" style={{backgroundColor:"#FFCD00"}}>
         <DiJira/>
         

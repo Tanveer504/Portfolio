@@ -25,7 +25,7 @@ web applications.
               <br />
               <br />I am fluent in
               <i>
-                <b className="purple"> HTML, CSS , Javascript , ReactJs , ES6 , Bootstrap , Redux ,Typescript , Mobile Fist , Agile Scrum Methodolgy.</b>
+                <b className="purple"> HTML, CSS , Javascript , Typescript , ReactJs , ES6 , Node.js, Bootstrap , Redux ,Typescript , Mobile Fist , Agile Scrum Methodolgy.</b>
               </i>
               <br />
               <br />
